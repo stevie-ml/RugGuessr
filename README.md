@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# RugGuesser
 
-# Run and deploy your AI Studio app
+An EthnoGuessr-style web app that challenges users to identify the geographic origin of rugs of the Orient and Occident.
 
-This contains everything you need to run your app locally.
+## Features
+- Pulls textile objects from museum APIs
+- Extracts cultural and geographic metadata
+- Geocodes likely origins and displays them on a map
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## Tech Stack
+- React and TypeScript
+- External museum APIs
+- Map-based UI
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Status
+Early prototype
