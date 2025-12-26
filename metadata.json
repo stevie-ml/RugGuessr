@@ -1,0 +1,8 @@
+
+{
+  "name": "RugGuesser: The Global Textile Quest",
+  "description": "An educational geography game where you guess the specific origin of historical rugs and textiles from world-renowned museum collections.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
